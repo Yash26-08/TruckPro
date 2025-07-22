@@ -1,0 +1,69 @@
+[
+  {
+    "truck_id": "TRUCK1",
+    "driver_name": "Ramesh",
+    "trip_status": "Returning",
+    "origin": "Pune",
+    "destination": "Mumbai",
+    "latest_distance": 39.68,
+    "latest_load": 0.0,
+    "calculated_price": 1139.96,
+    "city_type": "Tier 1",
+    "backhaul_status": "\u274c Backhaul Not Utilized: Truck returned empty.",
+    "maintenance_alerts": [],
+    "suggested_actions": [
+      "\ud83d\udce2 Offer discount to shippers for return trip."
+    ]
+  },
+  {
+    "truck_id": "TRUCK2",
+    "driver_name": "Suresh",
+    "trip_status": "Returning",
+    "origin": "Indore",
+    "destination": "Delhi",
+    "latest_distance": 48.02,
+    "latest_load": 7.0,
+    "calculated_price": 1369.79,
+    "city_type": "Tier 1",
+    "backhaul_status": "\u2705 Backhaul Utilized: Return trip filled with load.",
+    "maintenance_alerts": [],
+    "suggested_actions": []
+  },
+  {
+    "truck_id": "TRUCK3",
+    "driver_name": "Ganesh",
+    "trip_status": "Active",
+    "origin": "Nagpur",
+    "destination": "Aurangabad",
+    "latest_distance": 38.87,
+    "latest_load": 5.5,
+    "calculated_price": 1005.31,
+    "city_type": "Tier 2",
+    "backhaul_status": "\u2705 Backhaul Utilized: Return trip filled with load.",
+    "maintenance_alerts": [
+      "\u26a0\ufe0f Predictive Maintenance: Engine Temp C critical for 3+ timestamps."
+    ],
+    "suggested_actions": [
+      "\ud83d\udee0\ufe0f Schedule preventive maintenance immediately."
+    ]
+  },
+  {
+    "truck_id": "TRUCK4",
+    "driver_name": "Naresh",
+    "trip_status": "Returning",
+    "origin": "Ahmedabad",
+    "destination": "Bangalore",
+    "latest_distance": 34.29,
+    "latest_load": 6.0,
+    "calculated_price": 1206.6,
+    "city_type": "Tier 1",
+    "backhaul_status": "\u2705 Backhaul Utilized: Return trip filled with load.",
+    "maintenance_alerts": [
+      "\u26a0\ufe0f Predictive Maintenance: Coolant Level Percent critical for 3+ timestamps.",
+      "\u26a0\ufe0f Predictive Maintenance: Brake Pad Health critical for 3+ timestamps."
+    ],
+    "suggested_actions": [
+      "\ud83d\udee0\ufe0f Schedule preventive maintenance immediately."
+    ]
+  }
+]
